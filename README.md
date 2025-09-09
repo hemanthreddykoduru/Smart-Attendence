@@ -52,7 +52,7 @@ CREATE DATABASE attendance_system;
 
 2. Run the schema script:
 ```bash
-mysql -u root -p attendance_system < server/config/schema.sql
+mysql -u root -p attendance_system < server/schema.sql
 ```
 
 ### Backend Setup
@@ -68,7 +68,7 @@ npm install
 
 3. Configure environment variables:
 ```bash
-cp .env.example .env
+cp server/.env.example server/.env
 # Edit .env with your database credentials
 ```
 
